@@ -83,13 +83,13 @@ def cipher_text(m: str, N: Union[int, Dict[str, str]]) -> str:
     else:
         raise ValueError("Incorrect Input Data Type for N.")
     
-    output = ""
+    ciphertext = ""
 
     # Cipher the text per character.
     for char in m:
-        output += change_char(char, N)
-    print(m, "->", N, "->", output)
-    return output
+        ciphertext += change_char(char, N)
+    print(m, "->", N, "->", ciphertext)
+    return ciphertext
 
 
 if __name__ == "__main__":
