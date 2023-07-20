@@ -1,6 +1,14 @@
 from typing import List, Tuple
 
 
+# Reference for Abbreviations:
+# MIG: Monthly Income Generated
+# HR: Hourly Rate
+# AH: Allocated Hours
+# AW: Annual Wage
+# MEP: Monthly Employee Profitability
+# AEP: Annual Employee Profitability
+
 def compute_annual_employee_wage(
     hourly_rate: float, allocated_hours: float,
 ) -> float:
@@ -102,14 +110,6 @@ def compute_employee_profitability(
 
 
 if __name__ == "__main__":
-    # Reference for Abbreviations:
-    # MIG: Monthly Income Generated
-    # HR: Hourly Rate
-    # AH: Allocated Hours
-    # AW: Annual Wage
-    # MEP: Monthly Employee Profitability
-    # AEP: Annual Employee Profitability
-
     # Simple Test Cases
     test_cases = {
         # Case Name                      MIG      HR    AH
