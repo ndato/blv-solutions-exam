@@ -116,6 +116,6 @@ if __name__ == "__main__":
         "XbTdF",
         "XbT$F",
     )
-
+    # Compare the Results.
     for test_in, test_out in zip(tests_in, tests_out):
         assert test_out == cipher_text(*test_in)
